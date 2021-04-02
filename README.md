@@ -34,4 +34,3 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 
 ### 🔧 Meu Servidor no Discord
 [![Acessar](https://img.shields.io/badge/-Acessar-blueviolet)](https://discord.gg/PXabWKr)
-[![Acessar](<https://img.shields.io/badge/-Acessar-blueviolet)](https://discord.gg/PXabWKr)
