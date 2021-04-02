@@ -1,15 +1,15 @@
-### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Olá sou Kawe Maximo Tenho 17 Anos!
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Olá sou Kawe Maximo Tenho 17 Anos!
 
 💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/) <br>
 🏡 Brazil, Mogi das Cruzes , SP.
 
-### 💻 Mídias Sociais
+## 💻 Mídias Sociais
 ###
 📺 [Youtube](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA) <br>
 📷 [Instagram](https://www.instagram.com/kawe_maximo/) <br>
 ⚛️ [My site](https://kawemaximo.github.io/ADS---Cruzeiro-do-Sul/) <br>
 
-### 🎓 Sobre Mim
+## 🎓 Sobre Mim
 ###
 Sou um desenvolvedor com grande experiência em desenvolvimento web e arquiteturas distribuídas.
 Gosto muito das disciplinas de design e arquitetura de aplicações e normalmente exerço forte apoio nessa tarefa com os times, outros líderes e arquitetos. Além disso, transito bem entre as áreas técnicas e estratégicas da empresa, facilitando a comunicação com c-levels e product managers a fim de traduzir rapidamente ambições de negócio em estratégias que produzem software escalável e de valor.
