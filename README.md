@@ -32,5 +32,5 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![MySql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-### 🔧 Meu Servidor no Discord
+### Meu Servidor no Discord
 [![Acessar](https://img.shields.io/badge/Discord-808080?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/PXabWKr)
