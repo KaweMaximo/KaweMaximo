@@ -5,8 +5,10 @@
 
 ## 💻 Mídias Sociais
 ###
-[![Youtube](https://img.shields.io/badge/Yotube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA)
+[![Facebook](https://img.shields.io/badge/Facebook-0819ff?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/kawemaximo.maximo)
 [![Instagram](https://img.shields.io/badge/Instagram-ea0166?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kawe_maximo/)
+[![Youtube](https://img.shields.io/badge/Yotube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA)
+[![Linkedin](https://img.shields.io/badge/Linkedin-0643ff?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawe-maximo-godoi/)
 [![My site](https://img.shields.io/badge/ADS-513bff?style=for-the-badge&logo=atom&logoColor=white)](https://kawemaximo.github.io/ADS---Cruzeiro-do-Sul/)
 
 ## 🎓 Sobre Mim 
