@@ -10,7 +10,7 @@
 [![Youtube](https://img.shields.io/badge/Yotube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA)
 [![Linkedin](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawe-maximo-godoi/)
 [![Twitch](https://img.shields.io/badge/Twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/kawe_maximo)
-[![My site](https://img.shields.io/badge/ADS-513bff?style=for-the-badge&logo=atom&logoColor=white)](https://kawemaximo.github.io/ADS---Cruzeiro-do-Sul/)
+[![My site](https://img.shields.io/badge/ADS-0000?style=for-the-badge&logo=atom&logoColor=white)](https://kawemaximo.github.io/ADS---Cruzeiro-do-Sul/)
 
 ## 🎓 Sobre Mim 
 ###
