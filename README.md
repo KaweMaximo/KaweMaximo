@@ -37,4 +37,4 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
 ### 𝐢𝐓𝐳 𝐆𝐚𝐦𝐢𝐧𝐠 🚀 ㅤㅤㅤ𝐎𝐧𝐞𝐔𝐗 #𝟏 :tada: 
-[![Acessar](https://img.shields.io/badge/Discord-b21815?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qx3crSF4C5)ㅤㅤㅤ ㅤㅤㅤ [![Acessar](https://img.shields.io/badge/Discord-9c64ed?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/NjH9wUSPW9)
+[![Acessar](https://img.shields.io/badge/Discord-b21815?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qx3crSF4C5)ㅤㅤㅤ ㅤ ㅤㅤ [![Acessar](https://img.shields.io/badge/Discord-9c64ed?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/NjH9wUSPW9)
