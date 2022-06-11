@@ -1,4 +1,4 @@
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Olá sou Kawe Maximo Tenho 18 Anos !
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5px"> Olá sou Kawe Maximo Tenho 18 Anos !
 
 💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/).<br>
 🏡 Brazil, Mogi das Cruzes, SP.
