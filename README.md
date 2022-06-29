@@ -27,12 +27,15 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![VueJs](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08d)](https://vuejs.org)
 
+
 ### Linguagens e Frameworks de Back-end
 [![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![ExpressJs](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![JavaScript](https://img.shields.io/badge/Javascript-e1af24?style=for-the-badge&logo=javascript&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![Perl](https://img.shields.io/badge/perl-41403e?style=for-the-badge&logo=perl&logoColor=993399)](https://perl.org)
 
 ### Banco de Dados
+[![Oracle](https://img.shields.io/badge/oracle-white?style=for-the-badge&logo=oracle&logoColor=red)(htpps://oracle.com)]
 [![MySql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
