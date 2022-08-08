@@ -33,6 +33,7 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![ExpressJs](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![JavaScript](https://img.shields.io/badge/Javascript-e1af24?style=for-the-badge&logo=javascript&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 [![Perl](https://img.shields.io/badge/perl-white?style=for-the-badge&logo=perl&logoColor=993399)](htpps://perl.org)
+[![Python](https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=FFFF00)](https://python.org)
 
 ### Banco de Dados
 [![Oracle](https://img.shields.io/badge/oracle-white?style=for-the-badge&logo=oracle&logoColor=red)](htpps://oracle.com)
