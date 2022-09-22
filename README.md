@@ -1,7 +1,7 @@
 ## 👋 Olá sou Kawe Maximo Tenho 19 Anos !
 
 💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/).<br>
-👨‍💼 CEO da Empresa [MaxG2](https://maxg2.com) - Mogi das Cruzes, SP.<br>
+👨‍💼 (CEO) Diretor Executivo da Empresa [MaxG2](https://maxg2.com).<br>
 🏡 Brazil, Mogi das Cruzes, SP.
 
 ## 💻 Mídias Sociais
