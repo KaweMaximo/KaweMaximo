@@ -41,4 +41,4 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
 ## 🎖️ Certificados
-* Udemy, **Python Baic to Advanced** *(113.5 horas, Setembro de 2022)*
+* Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
