@@ -43,6 +43,7 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
 ## 🎖️ Certificados
+* Cruzeiro do Sul, **Cursando - Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
 * Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
 * Curso em Video, **Python Basic** *(40 horas, Setembro de 2022)*
 * Fundção Bradesco, **Data Modeling** *(10 horas, Julho de 2022)*
@@ -52,3 +53,9 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 * HackerRank, **SQL Intermediate** *(30 horas, Abril de 2022)*
 * Udemy, **Desenvolvimento Web** *(80 horas, Março de 2022)*
 * Udemy, **Design Thinking** *(112.5 horas, Fevereiro de 2022)*
+* Academia do Programador, **Programação** *(180.5 horas, Fevereiro de 2021)*
+* GigaByte, **Tecnologia Avançada** *(120 horas, Setembro de 2020)*
+* GigaByte, **Criação de Games** *(50 horas, Junho de 2020)*
+* GigaByte, **Hardware e Redes** *(40 horas, Março de 2020)*
+* GigaByte, **Marketing Digital** *(10 horas, Fevereiro de 2020)*
+* GigaByte, **Informática Avançada** *(200 horas, Janeiro de 2020)*
