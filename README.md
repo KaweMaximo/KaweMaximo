@@ -44,3 +44,11 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 
 ## 🎖️ Certificados
 * Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
+* Curso em Video, **Python Basic** *(40 horas, Setembro de 2022)*
+* Fundção Bradesco, **Data Modeling** *(10 horas, Julho de 2022)*
+* Fundação Bradesco, **Database Administration** *(10 horas, Julho de 2022)*
+* Fundação Bradesco, **Implementing DataBase** *(10 horas, Julho de 2022)*
+* HackerRank, **SQL** *(30 horas, Abril de 2022)*
+* HackerRank, **SQL Intermediate** *(30 horas, Abril de 2022)*
+* Udemy, **Desenvolvimento Web** *(80 horas, Março de 2022)*
+* Udemy, **Design Thinking** *(112.5 horas, Fevereiro de 2022)*
