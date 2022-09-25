@@ -12,7 +12,7 @@
 [![Youtube](https://img.shields.io/badge/Yotube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA)
 [![Linkedin](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawe-maximo-godoi/)
 [![Twitch](https://img.shields.io/badge/Twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/kawe_maximo)
-[![My site](https://img.shields.io/badge/MaxG2-purple?style=for-the-badge&logo=m&logoColor=white)](https://maxg2.com)
+[![My site](https://img.shields.io/badge/MaxG2-purple?style=for-the-badge&logo=html&logoColor=white)](https://maxg2.com)
 
 ## 🎓 Sobre Mim 
 ###
@@ -34,8 +34,10 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![ExpressJs](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![JavaScript](https://img.shields.io/badge/Javascript-e1af24?style=for-the-badge&logo=javascript&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![Perl](https://img.shields.io/badge/perl-white?style=for-the-badge&logo=perl&logoColor=993399)](htpps://perl.org)
+[![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)](htpps://perl.org)
 [![Python](https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=FFFF00)](https://python.org)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Bash](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](https://pt.wikipedia.org/wiki/Bash)
 
 ### Banco de Dados
 [![Oracle](https://img.shields.io/badge/oracle-white?style=for-the-badge&logo=oracle&logoColor=red)](htpps://oracle.com)
