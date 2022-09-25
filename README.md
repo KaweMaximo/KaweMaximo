@@ -42,9 +42,10 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
 ### Banco de Dados
-[![Oracle](https://img.shields.io/badge/oracle-white?style=for-the-badge&logo=oracle&logoColor=red)](htpps://oracle.com)
+[![Oracle]([https://img.shields.io/badge/oracle-white?style=for-the-badge&logo=oracle&logoColor=red](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black))](htpps://oracle.com)
 [![MySql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)](https://powerbi.microsoft.com/pt-br/)
 
 ### Sistema Cloud
 [![Amazon Aws](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
