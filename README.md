@@ -12,7 +12,7 @@
 [![Youtube](https://img.shields.io/badge/Yotube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA)
 [![Linkedin](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawe-maximo-godoi/)
 [![Twitch](https://img.shields.io/badge/Twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/kawe_maximo)
-[![My site](https://img.shields.io/badge/MaxG2-purple?style=for-the-badge&logo=html&logoColor=white)](https://maxg2.com)
+[![My site](https://img.shields.io/badge/Maxg2-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://maxg2.com)
 
 ## 🎓 Sobre Mim 
 ###
