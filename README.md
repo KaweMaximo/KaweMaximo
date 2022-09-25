@@ -37,7 +37,7 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)](htpps://perl.org)
 [![Python](https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=FFFF00)](https://python.org)
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
-[![Bash](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](https://pt.wikipedia.org/wiki/Bash)
+[![Bash]([https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black))](https://pt.wikipedia.org/wiki/Bash)
 
 ### Banco de Dados
 [![Oracle](https://img.shields.io/badge/oracle-white?style=for-the-badge&logo=oracle&logoColor=red)](htpps://oracle.com)
