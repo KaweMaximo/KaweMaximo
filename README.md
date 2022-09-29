@@ -52,22 +52,22 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=pt-br)
 
 ## 🎖️ Certificados
-* Cruzeiro do Sul, **Cursando - Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
-* Oracle, **Cursando - Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
-* HackerRank, **Python** *(10 horas, Setembro de 2022)*
-* Ginead, **Programação Aplicada a Mecatrônica** *(40 horas, Setembro de 2022)*
-* Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
-* Curso em Video, **Python Basic** *(40 horas, Setembro de 2022)*
-* Fundção Bradesco, **Data Modeling** *(10 horas, Julho de 2022)*
-* Fundação Bradesco, **Database Administration** *(10 horas, Julho de 2022)*
-* Fundação Bradesco, **Implementing DataBase** *(10 horas, Julho de 2022)*
-* HackerRank, **SQL** *(30 horas, Abril de 2022)*
-* HackerRank, **SQL Intermediate** *(30 horas, Abril de 2022)*
-* Udemy, **Desenvolvimento Web** *(80 horas, Março de 2022)*
-* Udemy, **Design Thinking** *(112.5 horas, Fevereiro de 2022)*
-* Academia do Programador, **Programação** *(180.5 horas, Fevereiro de 2021)*
-* GigaByte, **Tecnologia Avançada** *(120 horas, Setembro de 2020)*
-* GigaByte, **Criação de Games** *(50 horas, Junho de 2020)*
-* GigaByte, **Hardware e Redes** *(40 horas, Março de 2020)*
-* GigaByte, **Marketing Digital** *(10 horas, Fevereiro de 2020)*
-* GigaByte, **Informática Avançada** *(200 horas, Janeiro de 2020)*
+* ⌛ Cruzeiro do Sul, **Cursando - Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
+* ⌛ Oracle, **Cursando - Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
+* ✅ HackerRank, **Python** *(10 horas, Setembro de 2022)*
+* ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas, Setembro de 2022)*
+* ✅ Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
+* ✅ Curso em Video, **Python Basic** *(40 horas, Setembro de 2022)*
+* ✅ Fundção Bradesco, **Data Modeling** *(10 horas, Julho de 2022)*
+* ✅ Fundação Bradesco, **Database Administration** *(10 horas, Julho de 2022)*
+* ✅ Fundação Bradesco, **Implementing DataBase** *(10 horas, Julho de 2022)*
+* ✅ HackerRank, **SQL** *(30 horas, Abril de 2022)*
+* ✅ HackerRank, **SQL Intermediate** *(30 horas, Abril de 2022)*
+* ✅ Udemy, **Desenvolvimento Web** *(80 horas, Março de 2022)*
+* ✅ Udemy, **Design Thinking** *(112.5 horas, Fevereiro de 2022)*
+* ✅ Academia do Programador, **Programação** *(180.5 horas, Fevereiro de 2021)*
+* ✅ GigaByte, **Tecnologia Avançada** *(120 horas, Setembro de 2020)*
+* ✅ GigaByte, **Criação de Games** *(50 horas, Junho de 2020)*
+* ✅ GigaByte, **Hardware e Redes** *(40 horas, Março de 2020)*
+* ✅ GigaByte, **Marketing Digital** *(10 horas, Fevereiro de 2020)*
+* ✅ GigaByte, **Informática Avançada** *(200 horas, Janeiro de 2020)*
