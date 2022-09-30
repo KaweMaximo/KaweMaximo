@@ -54,6 +54,7 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 ## 🎖️ Certificados
 * ⌛ Cruzeiro do Sul, **Cursando - Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
 * ⌛ Oracle, **Cursando - Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
+* ⌛ Udemy, **Cursando - Java COMPLETO Programação Orientada a Objetos** *(Outubro de 2022)*
 * ✅ HackerRank, **Python** *(10 horas, Setembro de 2022)*
 * ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas, Setembro de 2022)*
 * ✅ Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
