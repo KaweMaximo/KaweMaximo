@@ -59,6 +59,8 @@ Gosto muito das disciplinas de design e arquitetura de aplicações e normalment
 * ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas, Setembro de 2022)*
 * ✅ Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
 * ✅ Curso em Video, **Python Basic** *(40 horas, Setembro de 2022)*
+* ✅ Alfahelix, **Sistema Operacional Linux - Avançado** *(10 horas, Agosto de 2022)*
+* ✅ Alfahelix, **Introdução ao Sistema Operacional Linux** *(8 horas, Agosto de 2022)*
 * ✅ Fundção Bradesco, **Data Modeling** *(10 horas, Julho de 2022)*
 * ✅ Fundação Bradesco, **Database Administration** *(10 horas, Julho de 2022)*
 * ✅ Fundação Bradesco, **Implementing DataBase** *(10 horas, Julho de 2022)*
