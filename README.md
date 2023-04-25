@@ -53,9 +53,9 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=pt-br)
 
 ## 🎖️ Certificados
-* ✅ Cruzeiro do Sul, **Cursando - Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
-* ✅ Oracle, **Cursando - Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
-* ✅ Udemy, **Cursando - Java COMPLETO Programação Orientada a Objetos + Spring Boot** *(Outubro de 2022)*
+* ✅ Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
+* ✅ Oracle, **Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
+* ✅ Udemy, **Java COMPLETO Programação Orientada a Objetos + Spring Boot** *(Outubro de 2022)*
 * ✅ HackerRank, **Python** *(10 horas, Setembro de 2022)*
 * ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas, Setembro de 2022)*
 * ✅ Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
