@@ -2,7 +2,6 @@
 
 💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/).<br>
 👨‍💼 (CEO) Diretor Executivo da Empresa [MaxG2](https://maxg2.com).<br>
-👨‍💼 (DEV) Desenvolvedor de Software da Empresa [V2Saude](https://v2saude.com).<br>
 👨‍💼 (CIO) Diretor de Tecnologia da Informação da Empresa [Artec Solar](https://sistema-artec.com.br).<br>
 🏡 Brazil, Mogi das Cruzes, SP.
 
