@@ -52,7 +52,7 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=pt-br)
 
 ## 🎖️ Certificados
-* ⌛ Udemy, **Especialista em AutoCAD** *(Janeiro de 2024)*
+* ✅ Udemy, **Especialista em AutoCAD** *(86.5 Horas, Janeiro de 2024)*
 * ✅ Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
 * ✅ Oracle, **Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
 * ✅ Udemy, **Java COMPLETO Programação Orientada a Objetos + Spring Boot** *(Outubro de 2022)*
