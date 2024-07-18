@@ -21,7 +21,6 @@ Sou um Desenvolvedor e Programador com 20 anos porem com grande experiência em 
 Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço forte apoio nessa tarefa com os times, outros líderes e arquitetos. Além disso, transito bem entre as áreas técnicas e estratégicas da empresa, facilitando a comunicação com c-levels e product managers a fim de traduzir rapidamente ambições de negócio em estratégias que produzem software escalável e de valor.
 
 ## 🚀 Minha Especialidade
-
 ### Linguagens e Frameworks de Front-end
 [![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/standards/webdesign/htmlcss.html)
 [![CSS 3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/standards/webdesign/htmlcss.html)
@@ -30,7 +29,7 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 [![Boo](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://bootstrap.com/)
 [![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![VueJs](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08d)](https://vuejs.org)
-
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
 
 ### Linguagens e Frameworks de Back-end
 [![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
@@ -41,6 +40,10 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![Bash](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](https://pt.wikipedia.org/wiki/Bash)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Hack](https://img.shields.io/badge/Hack-878787?style=for-the-badge&logo=hack&logoColor=white)](https://hacklang.org/)
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ### Banco de Dados
 [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)](htpps://oracle.com)
@@ -51,6 +54,7 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 ### Sistema Cloud
 [![Amazon Aws](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=pt-br)
+[![Oracle Cloud](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)](https://www.oracle.com/br/cloud/)
 
 ## 🎖️ Certificados
 * ✅ Udemy, **Especialista em AutoCAD** *(86.5 Horas, Janeiro de 2024)*
