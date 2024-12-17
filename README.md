@@ -1,4 +1,4 @@
-## 👋 Olá sou Kawe Maximo Tenho 22 Anos !
+## 👋 Olá sou Kawe Maximo Tenho 21 Anos !
 
 💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/).<br>
 👨‍💼 (CEO) Diretor Executivo da Empresa [MaxG2](https://maxg2.com).<br>
@@ -17,7 +17,7 @@
 
 ## 🎓 Sobre Mim 
 ###
-Sou um Desenvolvedor e Programador com 22 anos porem com grande experiência em desenvolvimento web e arquiteturas distribuídas.
+Sou um Desenvolvedor e Programador com 21 anos porem com grande experiência em desenvolvimento web e arquiteturas distribuídas.
 Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço forte apoio nessa tarefa com os times, outros líderes e arquitetos. Além disso, transito bem entre as áreas técnicas e estratégicas da empresa, facilitando a comunicação com c-levels e product managers a fim de traduzir rapidamente ambições de negócio em estratégias que produzem software escalável e de valor.
 
 ## 🚀 Minha Especialidade
