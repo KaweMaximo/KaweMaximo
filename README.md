@@ -111,8 +111,8 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 ## 🎓 Outros Cursos
 
 **Em Andamento**  
-* ✅ Udemy, **Psychrometry and Air Conditioning Systems**  
-* ✅ Udemy, **Curso Básico de Circuitos Elétricos**  
+* ⌛ Udemy, **Psychrometry and Air Conditioning Systems**  
+* ⌛ Udemy, **Curso Básico de Circuitos Elétricos**  
 
 **Certificados Recebidos**  
 * ✅ Udemy, **Heating Ventilation & Air Conditioning: Basic Course** *(Certificado)*  
