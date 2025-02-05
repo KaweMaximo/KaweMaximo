@@ -56,6 +56,10 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=pt-br)
 [![Oracle Cloud](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)](https://www.oracle.com/br/cloud/)
 
+## 🎓 Diplomas
+
+* ✅ Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas**
+
 ## 🎖️ Certificados
 
 **Outubro de 2024**  
@@ -120,6 +124,12 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 **Certificados Recebidos**  
 * ✅ Udemy, **Heating Ventilation & Air Conditioning: Basic Course** *(Certificado)*  
 * ✅ Udemy, **Projetista HVAC / Refrigeração / Climatização** *(Certificado)*  
+
+**Webinar**
+
+* ✅ PHB, **Webinar Introdução Fotovoltaico** 
+* ✅ PHB, **Webinar Introdução Modulos**
+* ✅ PHB, **Webinar Introdução Inversor**
 
 **Live Aulas**  
 * ✅ Engineering Mindset, **VAV Variable Air Volume - HVAC System Basics HVacr** *(LIVE AULA / ENG)*  
