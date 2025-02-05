@@ -57,26 +57,70 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 [![Oracle Cloud](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)](https://www.oracle.com/br/cloud/)
 
 ## 🎖️ Certificados
-* ✅ Udemy, **Especialista em AutoCAD** *(86.5 Horas, Janeiro de 2024)*
-* ✅ Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas** *(Janeiro de 2020)*
-* ✅ Oracle, **Oracle Cloud Infrastructure Foundations** *(Outubro de 2022)*
-* ✅ Udemy, **Java COMPLETO Programação Orientada a Objetos + Spring Boot** *(Outubro de 2022)*
-* ✅ HackerRank, **Python** *(10 horas, Setembro de 2022)*
-* ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas, Setembro de 2022)*
-* ✅ Udemy, **Python Basic to Advanced** *(113.5 horas, Setembro de 2022)*
-* ✅ Curso em Video, **Python Basic** *(40 horas, Setembro de 2022)*
-* ✅ Alfahelix, **Sistema Operacional Linux - Avançado** *(10 horas, Agosto de 2022)*
-* ✅ Alfahelix, **Introdução ao Sistema Operacional Linux** *(8 horas, Agosto de 2022)*
-* ✅ Fundção Bradesco, **Data Modeling** *(10 horas, Julho de 2022)*
-* ✅ Fundação Bradesco, **Database Administration** *(10 horas, Julho de 2022)*
-* ✅ Fundação Bradesco, **Implementing DataBase** *(10 horas, Julho de 2022)*
-* ✅ HackerRank, **SQL** *(30 horas, Abril de 2022)*
-* ✅ HackerRank, **SQL Intermediate** *(30 horas, Abril de 2022)*
-* ✅ Udemy, **Desenvolvimento Web** *(80 horas, Março de 2022)*
-* ✅ Udemy, **Design Thinking** *(112.5 horas, Fevereiro de 2022)*
-* ✅ Academia do Programador, **Programação** *(180.5 horas, Fevereiro de 2021)*
-* ✅ GigaByte, **Tecnologia Avançada** *(120 horas, Setembro de 2020)*
-* ✅ GigaByte, **Criação de Games** *(50 horas, Junho de 2020)*
-* ✅ GigaByte, **Hardware e Redes** *(40 horas, Março de 2020)*
-* ✅ GigaByte, **Marketing Digital** *(10 horas, Fevereiro de 2020)*
-* ✅ GigaByte, **Informática Avançada** *(200 horas, Janeiro de 2020)*
+
+**Janeiro de 2024**  
+* ✅ Udemy, **Especialista em AutoCAD** *(86.5 Horas)*
+
+**Outubro de 2022**  
+* ✅ Oracle, **Oracle Cloud Infrastructure Foundations**  
+* ✅ Udemy, **Java COMPLETO Programação Orientada a Objetos + Spring Boot**  
+* ✅ HackerRank, **Python** *(10 horas)*
+
+**Setembro de 2022**  
+* ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas)*  
+* ✅ Udemy, **Python Basic to Advanced** *(113.5 horas)*  
+* ✅ Curso em Video, **Python Basic** *(40 horas)*  
+* ✅ Alfahelix, **Sistema Operacional Linux - Avançado** *(10 horas)*  
+* ✅ Alfahelix, **Introdução ao Sistema Operacional Linux** *(8 horas)*
+
+**Julho de 2022**  
+* ✅ Fundação Bradesco, **Data Modeling** *(10 horas)*  
+* ✅ Fundação Bradesco, **Database Administration** *(10 horas)*  
+* ✅ Fundação Bradesco, **Implementing DataBase** *(10 horas)*
+
+**Abril de 2022**  
+* ✅ HackerRank, **SQL** *(30 horas)*  
+* ✅ HackerRank, **SQL Intermediate** *(30 horas)*
+
+**Março de 2022**  
+* ✅ Udemy, **Desenvolvimento Web** *(80 horas)*
+
+**Fevereiro de 2022**  
+* ✅ Udemy, **Design Thinking** *(112.5 horas)*
+
+**Fevereiro de 2021**  
+* ✅ Academia do Programador, **Programação** *(180.5 horas)*
+
+**Setembro de 2020**  
+* ✅ GigaByte, **Tecnologia Avançada** *(120 horas)*
+
+**Junho de 2020**  
+* ✅ GigaByte, **Criação de Games** *(50 horas)*
+
+**Março de 2020**  
+* ✅ GigaByte, **Hardware e Redes** *(40 horas)*
+
+**Fevereiro de 2020**  
+* ✅ GigaByte, **Marketing Digital** *(10 horas)*
+
+**Janeiro de 2020**  
+* ✅ GigaByte, **Informática Avançada** *(200 horas)*
+
+---
+
+## 🎓 Outros Cursos
+
+**Em Andamento**  
+* ✅ Udemy, **Psychrometry and Air Conditioning Systems**  
+* ✅ Udemy, **Curso Básico de Circuitos Elétricos**  
+
+**Certificados Recebidos**  
+* ✅ Udemy, **Heating Ventilation & Air Conditioning: Basic Course** *(Certificado)*  
+* ✅ Udemy, **Projetista HVAC / Refrigeração / Climatização** *(Certificado)*  
+
+**Live Aulas**  
+* ✅ Engineering Mindset, **VAV Variable Air Volume - HVAC System Basics HVacr** *(LIVE AULA / ENG)*  
+* ✅ SP1 Ar Condicionado, **Norma ABNT NBR 7256:2021** *(LIVE AULA / PT)*  
+* ✅ SP1 Ar Condicionado, **Norma ABNT NBR 16401** *(LIVE AULA / PT)*  
+* ✅ SP1 Ar Condicionado, **Renovação de Ar em Ambientes Climatizados** *(LIVE AULA / PT)*  
+* ✅ Mauricio Chrispim VRF, **Cálculo Rede de Dutos - Métodos Igual Fricção: Perda de Carga** *(LIVE AULA / PT)*  
