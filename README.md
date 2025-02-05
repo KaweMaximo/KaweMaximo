@@ -58,6 +58,9 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 
 ## 🎖️ Certificados
 
+**Outubro de 2024**  
+* ✅ Rocketseat, **Curso Online de PHP** *(50 Horas)*
+
 **Janeiro de 2024**  
 * ✅ Udemy, **Especialista em AutoCAD** *(86.5 Horas)*
 
