@@ -3,7 +3,7 @@
 💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/).<br>
 👨‍💼 (CEO) Diretor Executivo da Empresa [MaxG2](https://maxg2.com).<br>
 👨‍💼 (CEO) Diretor Executivo da Empresa [Andreia Previdenciarista](https://andreiaprevidenciarista.com/login).<br>
-👨‍💼 (CIO) Diretor de Tecnologia da Informação da Empresa [Artec Solar](https://artecsolar.com.br).<br>
+👨‍💼 (CIO) Diretor de Tecnologia da Informação da Empresa [Artec Solar](https://sistema-artec.com.br/).<br>
 👨‍💼 (ENG) Engenheiro de Software da Empresa [GA230](https://grupoga230.com.br/).<br>
 🧑‍🎓 (Aluno) Matheus Souza [@iTz-Theus](https://github.com/ITZ-Theus).<br>
 🏡 Brazil, Mogi das Cruzes, SP.
