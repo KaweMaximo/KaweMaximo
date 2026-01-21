@@ -60,7 +60,8 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 
 ## 🎓 Diplomas
 
-* ✅ Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas**
+* ⌛ Graduação, Cruzeiro do Sul, **Engenharia de Software**
+* ✅ Graduação, Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas**
 
 ## 🎖️ Certificados
 
@@ -121,11 +122,11 @@ Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço f
 
 **Em Andamento**  
 * ⌛ Udemy, **Psychrometry and Air Conditioning Systems**  
-* ⌛ Udemy, **Curso Básico de Circuitos Elétricos**  
 
 **Certificados Recebidos**  
 * ✅ Udemy, **Heating Ventilation & Air Conditioning: Basic Course** *(Certificado)*  
 * ✅ Udemy, **Projetista HVAC / Refrigeração / Climatização** *(Certificado)*  
+* ✅ Udemy, **Curso Básico de Circuitos Elétricos**  
 
 **Webinar**
 
