@@ -1,140 +1,91 @@
-## 👋 Olá sou Kawe Maximo Tenho 22 Anos !
+<div align="center">  
+  <h1 style="font-size: 2.5rem; margin-bottom: 0;">Hi, I'm Kawe Maximo! 👋</h1>
+  <h3 style="color: #bd00ff;">Software Engineer & Solutions Architect</h3>
+  
+  <p align="center">
+    <b>CEO @ <a href="https://eryno.com.br">Eryno</a></b> • 
+    <b>CIO @ <a href="https://sistema-artec.com.br/">Artec Solar</a></b> • 
+    <b>Analyst @ <a href="https://grupoga230.com.br/">GA230</a></b>
+  </p>
 
-💻 Engenheiro de Software e Analista de Sistemas. [Kawe Maximo Godoi](https://www.instagram.com/kawe_maximo/).<br>
-👨‍💼 (CEO) Diretor Executivo da Empresa [Eryno](https://eryno.com.br).<br>
-👨‍💼 (CIO) Diretor de Tecnologia da Informação da Empresa [Artec Solar](https://sistema-artec.com.br/).<br>
-👨‍💼 (ENG) Analista de Software da Empresa [GA230](https://grupoga230.com.br/).<br>
-🏡 Brazil, Mogi das Cruzes, SP.
+  <p>
+    <i>"Transforming complex ideas into scalable, high-value software."</i>
+  </p>
 
-## 💻 Mídias Sociais
-###
-[![Facebook](https://img.shields.io/badge/Facebook-3b5998?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/kawemaximo.maximo)
-[![Instagram](https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kawe_maximo/)
-[![Youtube](https://img.shields.io/badge/Yotube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCzfGAeNgcMmrMmfdUUprbMA)
-[![Linkedin](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawe-maximo-godoi/)
-[![Twitch](https://img.shields.io/badge/Twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/kawe_maximo)
-[![My Organization](https://img.shields.io/badge/Eryno-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://eryno.com.br)
+  <div align="center">
+    <a href="https://www.linkedin.com/in/kawe-maximo-godoi/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://www.instagram.com/kawe_maximo/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+    <a href="https://eryno.com.br"><img src="https://img.shields.io/badge/Website-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Website"/></a>
+    <a href="mailto:kawemaximogodoi@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  </div>
+</div>
 
-## 🎓 Sobre Mim 
-###
-Sou um Desenvolvedor e Programador com 22 anos porem com grande experiência em desenvolvimento web e arquiteturas distribuídas.
-Gosto muito das disciplinas arquitetura de aplicações, e normalmente exerço forte apoio nessa tarefa com os times, outros líderes e arquitetos. Além disso, transito bem entre as áreas técnicas e estratégicas da empresa, facilitando a comunicação com c-levels e product managers a fim de traduzir rapidamente ambições de negócio em estratégias que produzem software escalável e de valor.
+<br />
 
-## 🚀 Minha Especialidade
-### Linguagens e Frameworks de Front-end
-[![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3.org/standards/webdesign/htmlcss.html)
-[![CSS 3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/standards/webdesign/htmlcss.html)
-[![LessCss](https://img.shields.io/badge/Less-1d365d?style=for-the-badge&logo=less&logoColor=white)](http://lesscss.org/)
-[![TailWind](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white)](https://tailwindcss.com/)
-[![Boo](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://bootstrap.com/)
-[![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![VueJs](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08d)](https://vuejs.org)
-[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+## 👨‍💻 About Me
 
-### Linguagens e Frameworks de Back-end
-[![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
-[![ExpressJs](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![JavaScript](https://img.shields.io/badge/Javascript-e1af24?style=for-the-badge&logo=javascript&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white)](htpps://perl.org)
-[![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://python.org)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
-[![Bash](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](https://pt.wikipedia.org/wiki/Bash)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Hack](https://img.shields.io/badge/Hack-878787?style=for-the-badge&logo=hack&logoColor=white)](https://hacklang.org/)
+I am a **22-year-old Software Engineer** based in **Mogi das Cruzes, SP**, passionate about High-Performance Computing and Distributed Systems.
 
-### Banco de Dados
-[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)](htpps://oracle.com)
-[![MySql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)](https://powerbi.microsoft.com/pt-br/)
+Despite my age, I have accumulated significant experience in leadership and architecture. I thrive in the intersection of **technical implementation** and **business strategy**, helping organizations translate ambitions into robust, scalable technology.
 
-### Sistema Cloud
-[![Amazon Aws](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon&logoColor=white)](https://aws.amazon.com/)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=pt-br)
-[![Oracle Cloud](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)](https://www.oracle.com/br/cloud/)
-
-## 🎓 Diplomas
-
-* ⌛ Graduação, Cruzeiro do Sul, **Engenharia de Software**
-* ✅ Graduação, Cruzeiro do Sul, **Análise de Desenvolvimento de Sistemas**
-
-## 🎖️ Certificados
-
-**Outubro de 2024**  
-* ✅ Rocketseat, **Curso Online de PHP** *(50 Horas)*
-
-**Janeiro de 2024**  
-* ✅ Udemy, **Especialista em AutoCAD** *(86.5 Horas)*
-
-**Outubro de 2022**  
-* ✅ Oracle, **Oracle Cloud Infrastructure Foundations**  
-* ✅ Udemy, **Java COMPLETO Programação Orientada a Objetos + Spring Boot**  
-* ✅ HackerRank, **Python** *(10 horas)*
-
-**Setembro de 2022**  
-* ✅ Ginead, **Programação Aplicada a Mecatrônica** *(40 horas)*  
-* ✅ Udemy, **Python Basic to Advanced** *(113.5 horas)*  
-* ✅ Curso em Video, **Python Basic** *(40 horas)*  
-* ✅ Alfahelix, **Sistema Operacional Linux - Avançado** *(10 horas)*  
-* ✅ Alfahelix, **Introdução ao Sistema Operacional Linux** *(8 horas)*
-
-**Julho de 2022**  
-* ✅ Fundação Bradesco, **Data Modeling** *(10 horas)*  
-* ✅ Fundação Bradesco, **Database Administration** *(10 horas)*  
-* ✅ Fundação Bradesco, **Implementing DataBase** *(10 horas)*
-
-**Abril de 2022**  
-* ✅ HackerRank, **SQL** *(30 horas)*  
-* ✅ HackerRank, **SQL Intermediate** *(30 horas)*
-
-**Março de 2022**  
-* ✅ Udemy, **Desenvolvimento Web** *(80 horas)*
-
-**Fevereiro de 2022**  
-* ✅ Udemy, **Design Thinking** *(112.5 horas)*
-
-**Fevereiro de 2021**  
-* ✅ Academia do Programador, **Programação** *(180.5 horas)*
-
-**Setembro de 2020**  
-* ✅ GigaByte, **Tecnologia Avançada** *(120 horas)*
-
-**Junho de 2020**  
-* ✅ GigaByte, **Criação de Games** *(50 horas)*
-
-**Março de 2020**  
-* ✅ GigaByte, **Hardware e Redes** *(40 horas)*
-
-**Fevereiro de 2020**  
-* ✅ GigaByte, **Marketing Digital** *(10 horas)*
-
-**Janeiro de 2020**  
-* ✅ GigaByte, **Informática Avançada** *(200 horas)*
+*   🔭 I’m currently working on **AI-driven ERP systems** and **IoT solutions**.
+*   🌱 I’m currently exploring **Psychrometry** and **Advanced HVAC Systems**.
+*   ⚡ Fun fact: I utilize my engineering skills to optimize solar energy systems and industrial automation.
 
 ---
 
-## 🎓 Outros Cursos
+## 🚀 Tech Stack
 
-**Em Andamento**  
-* ⌛ Udemy, **Psychrometry and Air Conditioning Systems**  
+<div align="center">
 
-**Certificados Recebidos**  
-* ✅ Udemy, **Heating Ventilation & Air Conditioning: Basic Course** *(Certificado)*  
-* ✅ Udemy, **Projetista HVAC / Refrigeração / Climatização** *(Certificado)*  
-* ✅ Udemy, **Curso Básico de Circuitos Elétricos**  
+### Languages & Core
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
 
-**Webinar**
+### Frontend & UI
+<img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08d" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 
-* ✅ PHB, **Webinar Introdução Fotovoltaico** 
-* ✅ PHB, **Webinar Introdução Modulos**
-* ✅ PHB, **Webinar Introdução Inversor**
+### Backend & Cloud
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon&logoColor=white" />
+<img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 
-**Live Aulas**  
-* ✅ Engineering Mindset, **VAV Variable Air Volume - HVAC System Basics HVacr** *(LIVE AULA / ENG)*  
-* ✅ SP1 Ar Condicionado, **Norma ABNT NBR 7256:2021** *(LIVE AULA / PT)*  
-* ✅ SP1 Ar Condicionado, **Norma ABNT NBR 16401** *(LIVE AULA / PT)*  
-* ✅ SP1 Ar Condicionado, **Renovação de Ar em Ambientes Climatizados** *(LIVE AULA / PT)*  
-* ✅ Mauricio Chrispim VRF, **Cálculo Rede de Dutos - Métodos Igual Fricção: Perda de Carga** *(LIVE AULA / PT)*  
+### Databases
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+
+</div>
+
+---
+
+## 🎖️ Education & Certifications
+
+### 🎓 Degrees
+| Status | Degree | Institution |
+| :---: | :--- | :--- |
+| ⏳ | **B.S. Software Engineering** | Cruzeiro do Sul |
+| ✅ | **A.S. Systems Analysis & Dev** | Cruzeiro do Sul |
+
+### 🏆 Top Certifications
+*   **Oracle Cloud Infrastructure Foundations** (Oracle)
+*   **PHP Professional** (Rocketseat)
+*   **Full Stack Java + Spring Boot** (Udemy)
+*   **Python Advanced** (113h Course)
+*   **Design Thinking** (112h Course)
+*   **Database Administration & Modeling** (Fundação Bradesco)
+
+<br />
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=KaweMaximo&color=00f3ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+</div>
