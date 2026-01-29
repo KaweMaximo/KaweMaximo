@@ -29,7 +29,7 @@ I am a **22-year-old Software Engineer** based in **Mogi das Cruzes, SP**, passi
 Despite my age, I have accumulated significant experience in leadership and architecture. I thrive in the intersection of **technical implementation** and **business strategy**, helping organizations translate ambitions into robust, scalable technology.
 
 *   🔭 I’m currently working on **AI-driven ERP systems** and **IoT solutions**.
-*   🌱 I’m currently exploring **Psychrometry** and **Advanced HVAC Systems**.
+*   🌱 I’m currently exploring **Psychrometry** and **Software Engineering**.
 *   ⚡ Fun fact: I utilize my engineering skills to optimize solar energy systems and industrial automation.
 
 ---
