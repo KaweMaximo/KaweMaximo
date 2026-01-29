@@ -78,11 +78,13 @@ Despite my age, I have accumulated significant experience in leadership and arch
 
 ### 🏆 Top Certifications
 *   **Oracle Cloud Infrastructure Foundations** (Oracle)
-*   **PHP Professional** (Rocketseat)
-*   **Full Stack Java + Spring Boot** (Udemy)
-*   **Python Advanced** (113h Course)
-*   **Design Thinking** (112h Course)
+*   **Google Cloud Engineer** (Google)
+*   **Multi Cloud Architecture** (Google)
 *   **Database Administration & Modeling** (Fundação Bradesco)
+*   **SQL Security** (HackerRank) 
+*   **PHP Professional** (Rocketseat)
+*   **Python Professional** (Rocketseat)
+
 
 <br />
 
