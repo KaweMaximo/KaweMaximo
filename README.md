@@ -85,7 +85,6 @@ Despite my age, I have accumulated significant experience in leadership and arch
 *   **PHP Professional** (Rocketseat)
 *   **Python Professional** (Rocketseat)
 
-
 <br />
 
 <div align="center">
