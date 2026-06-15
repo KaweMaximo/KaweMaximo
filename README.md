@@ -103,8 +103,6 @@ I work at the intersection of **technical implementation** and **business strate
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=KaweMaximo&hide_border=true&background=0d1117&ring=bd00ff&fire=bd00ff&currStreakLabel=bd00ff&stroke=bd00ff" alt="streak" />
-
 </div>
 
 <br/>
