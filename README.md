@@ -1,92 +1,126 @@
-<div align="center">  
-  <h1 style="font-size: 2.5rem; margin-bottom: 0;">Hi, I'm Kawe Maximo! 👋</h1>
-  <h3 style="color: #bd00ff;">Software Engineer & Solutions Architect</h3>
-  
-  <p align="center">
-    <b>CEO @ <a href="https://eryno.com.br">Eryno</a></b> • 
-    <b>CIO @ <a href="https://sistema-artec.com.br/">Artec Solar</a></b> • 
-    <b>Analyst @ <a href="https://grupoga230.com.br/">GA230</a></b>
-  </p>
-
-  <p>
-    <i>"Transforming complex ideas into scalable, high-value software."</i>
-  </p>
-
-  <div align="center">
-    <a href="https://www.linkedin.com/in/kawe-maximo-godoi/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="https://www.instagram.com/kawe_maximo/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-    <a href="https://eryno.com.br"><img src="https://img.shields.io/badge/Website-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Website"/></a>
-    <a href="mailto:kawemaximogodoi@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  </div>
-</div>
-
-<br />
-
-## 👨‍💻 About Me
-
-I am a **22-year-old Software Engineer** based in **Mogi das Cruzes, SP**, passionate about High-Performance Computing and Distributed Systems.
-
-Despite my age, I have accumulated significant experience in leadership and architecture. I thrive in the intersection of **technical implementation** and **business strategy**, helping organizations translate ambitions into robust, scalable technology.
-
-*   🔭 I’m currently working on **AI-driven ERP systems** and **IoT solutions**.
-*   🌱 I’m currently exploring **Psychrometry** and **Software Engineering**.
-*   ⚡ Fun fact: I utilize my engineering skills to optimize solar energy systems and industrial automation.
-
----
-
-## 🚀 Tech Stack
+<!-- ============================================= -->
+<!--                    HEADER                     -->
+<!-- ============================================= -->
 
 <div align="center">
 
-### Languages & Core
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:6d00cc,100:bd00ff&height=160&section=header" width="100%" alt="banner"/>
 
-### Frontend & UI
-<img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08d" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+# Kawe Maximo
 
-### Backend & Cloud
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-<img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+#### Software Engineer &amp; Solutions Architect
 
-### Databases
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=800&color=BD00FF&center=true&vCenter=true&width=600&lines=Distributed+Systems+%26+High-Performance+Computing;Cloud+Architecture+%E2%80%94+GCP+%7C+AWS+%7C+Oracle;Turning+complex+ideas+into+scalable+software" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/kawe-maximo-godoi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://kawemaximo.com.br"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://github.com/KaweMaximo"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="mailto:kawemaximogodoi@hotmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
----
+<br/>
 
-## 🎖️ Education & Certifications
+<!-- ============================================= -->
+<!--                   ABOUT                       -->
+<!-- ============================================= -->
 
-### 🎓 Degrees
-| Status | Degree | Institution |
-| :---: | :--- | :--- |
-| ⏳ | **B.S. Software Engineering** | Cruzeiro do Sul |
-| ✅ | **A.S. Systems Analysis & Dev** | Cruzeiro do Sul |
+## `whoami`
 
-### 🏆 Top Certifications
-*   **Oracle Cloud Infrastructure Foundations** (Oracle)
-*   **Google Cloud Engineer** (Google)
-*   **Multi Cloud Architecture** (Google)
-*   **Database Administration & Modeling** (Fundação Bradesco)
-*   **SQL Security** (HackerRank) 
-*   **PHP Professional** (Rocketseat)
-*   **Python Professional** (Rocketseat)
+```ts
+const kawe: Engineer = {
+  role:      ["Software Engineer", "Solutions Architect"],
+  location:  "Mogi das Cruzes, SP — Brazil",
+  focus:     ["Distributed Systems", "Cloud Infrastructure", "AI-driven ERP"],
+  building:  ["Eryno (CEO)", "Artec Solar (CIO)", "GA230 (Analyst)"],
+  philosophy: "Right-sized solutions over premium defaults.",
+};
+```
 
-<br />
+I work at the intersection of **technical implementation** and **business strategy** — designing systems that are robust enough to scale and pragmatic enough to ship. Lately that means distributed architectures on Raspberry Pi fleets, cloud-native infrastructure, and ERP platforms with AI baked in.
+
+<br/>
+
+<!-- ============================================= -->
+<!--                 TECH STACK                    -->
+<!-- ============================================= -->
+
+## `tech-stack`
+
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,php,java,cpp" alt="languages" />
+</p>
+
+**Frontend**
+<p>
+  <img src="https://skillicons.dev/icons?i=svelte,react,vue,tailwind" alt="frontend" />
+</p>
+
+**Backend & Infra**
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,docker,kubernetes,terraform,gcp,aws" alt="backend" />
+</p>
+
+**Data**
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" alt="data" />
+</p>
+
+<br/>
+
+<!-- ============================================= -->
+<!--               FEATURED WORK                   -->
+<!-- ============================================= -->
+
+## `featured-work`
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **SIGA** | Distributed industrial control across Raspberry Pi fleets — each node owns a defined slice of the operational pipeline. | `MQTT` · `PocketBase` · `Node.js` |
+| **PlannED ERP** | AI-driven ERP replacing a legacy system, with a visual sales-flow timeline. | `SvelteKit 2` · `TanStack Query` · `Firebase` |
+| **AI Vision Core** | Computer-vision engine for real-time inference. | `TensorFlow` · `Python` |
+| **IoT Nexus Control** | Home & industrial automation hub. | `IoT` · `Node.js` |
+
+> Browse everything at **[github.com/KaweMaximo](https://github.com/KaweMaximo?tab=repositories)**
+
+<br/>
+
+<!-- ============================================= -->
+<!--                  METRICS                      -->
+<!-- ============================================= -->
+
+## `metrics`
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=KaweMaximo&color=00f3ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=KaweMaximo&show_icons=true&hide_border=true&bg_color=0d1117&title_color=bd00ff&icon_color=bd00ff&text_color=c9d1d9&count_private=true" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KaweMaximo&layout=compact&hide_border=true&bg_color=0d1117&title_color=bd00ff&text_color=c9d1d9&langs_count=8" alt="top langs" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=KaweMaximo&hide_border=true&background=0d1117&ring=bd00ff&fire=bd00ff&currStreakLabel=bd00ff&stroke=bd00ff" alt="streak" />
+
+</div>
+
+<br/>
+
+<!-- ============================================= -->
+<!--               CERTIFICATIONS                  -->
+<!-- ============================================= -->
+
+## `credentials`
+
+🎓 **B.S. Software Engineering** *(in progress)* · **A.S. Systems Analysis & Development** — Cruzeiro do Sul
+
+☁️ Oracle Cloud Infrastructure Foundations · Google Cloud Engineer · Multi-Cloud Architecture
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:bd00ff,50:6d00cc,100:0a0a0a&height=120&section=footer" width="100%" alt="footer"/>
 </div>
