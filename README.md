@@ -3,11 +3,11 @@
      and keeps serving the old copy otherwise. -->
 <div align="center">
 
-<img src="assets/banner.svg?v=3" width="100%" alt="Kawe Maximo — software engineer, solutions architect, offensive security" />
+<img src="assets/banner.svg?v=4e68a85" width="100%" alt="Kawe Maximo — software engineer, solutions architect, offensive security" />
 
 <br/><br/>
 
-<img src="assets/terminal.svg?v=3" width="88%" alt="whoami, focus areas and an nmap scan of my skill set" />
+<img src="assets/terminal.svg?v=4e68a85" width="88%" alt="whoami, focus areas and an nmap scan of my skill set" />
 
 </div>
 
