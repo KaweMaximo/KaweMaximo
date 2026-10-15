@@ -1,3 +1,5 @@
+<!-- The images are built by scripts/gen_svgs.py. After rebuilding one, bump its ?v= below:
+     GitHub caches profile images by URL and keeps serving the old copy otherwise. -->
 <div align="center">
 
 <img src="assets/banner.svg?v=2" width="100%" alt="Kawe Maximo — software engineer, solutions architect, offensive security" />
