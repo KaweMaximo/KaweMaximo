@@ -24,7 +24,7 @@ bottom_right = "PURPLE TEAM · BUILD ▸ BREAK ▸ HARDEN"
 user = "kawe"
 host = "kali"
 # Read by screen readers.
-description = "Terminal: whoami, focus areas and an nmap scan of Kawe's skills"
+description = "Animated terminal: whoami, focus areas and an nmap scan of Kawe's skills"
 
 # One [[terminal.lines]] block per line, in order. A line is either:
 #   cmd = "..."                           typed out after the prompt
