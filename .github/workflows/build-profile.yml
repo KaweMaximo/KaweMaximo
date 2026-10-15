@@ -1,0 +1,41 @@
+# Rebuilds assets/*.svg from profile.toml and bumps the ?v= of the images in
+# README.md, so GitHub's image cache serves the new version.
+name: build profile
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - profile.toml
+      - scripts/gen_svgs.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate the SVGs
+        run: python3 scripts/gen_svgs.py
+
+      - name: Commit them when they changed
+        run: |
+          if git diff --quiet -- assets; then
+            echo "The SVGs did not change."
+            exit 0
+          fi
+          sed -i -E "s#(assets/(banner|terminal)\.svg)\?v=[^\"']*#\1?v=${GITHUB_SHA::7}#g" README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          git commit -m "Rebuild the profile SVGs"
+          git push

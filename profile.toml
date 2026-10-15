@@ -1,0 +1,71 @@
+# Everything the banner and the terminal show comes from this file.
+#
+# Edit it and commit: the "build profile" workflow regenerates assets/*.svg and
+# bumps the image version in README.md. To build locally instead:
+#   python3 scripts/gen_svgs.py        (Python 3.11+, no dependencies)
+#
+# Colors, wherever a color is asked for: green, cyan, purple, yellow, red,
+# white, gray, dim, or any "#rrggbb".
+
+[banner]
+name = "KAWE MAXIMO"
+subtitle = "> software engineer  //  solutions architect  //  offensive security"
+motto = "BUILD IT · BREAK IT · HARDEN IT"
+# Read by screen readers. Defaults to the name and the subtitle.
+description = "Kawe Maximo: software engineer, solutions architect, offensive security"
+
+# The four corner labels. Leave one empty ("") to hide it.
+top_left = "SYS::ONLINE"
+top_right = "LAT -23.52 · LON -46.18 · MOGI DAS CRUZES"
+bottom_left = "root@kawe:~#"
+bottom_right = "PURPLE TEAM · BUILD ▸ BREAK ▸ HARDEN"
+
+[terminal]
+user = "kawe"
+host = "kali"
+# Read by screen readers.
+description = "Terminal: whoami, focus areas and an nmap scan of Kawe's skills"
+
+# One [[terminal.lines]] block per line, in order. A line is either:
+#   cmd = "..."                           typed out after the prompt
+#   out = [["text", "color"], ...]        printed, one color per piece
+# Lines longer than about 95 characters do not fit the window.
+
+[[terminal.lines]]
+cmd = "whoami"
+
+[[terminal.lines]]
+out = [["Kawe Maximo", "white"], [" — software engineer · solutions architect · offensive security", "gray"]]
+
+[[terminal.lines]]
+cmd = "cat ./focus"
+
+[[terminal.lines]]
+out = [["[web/api pentest]  ", "green"], ["[cloud & iot hardening]  ", "cyan"], ["[distributed systems]  ", "purple"], ["[secure sdlc]", "yellow"]]
+
+[[terminal.lines]]
+cmd = "nmap -sV --top-ports 5 kawe"
+
+[[terminal.lines]]
+out = [["PORT      STATE  SERVICE         DETAILS", "dim"]]
+
+[[terminal.lines]]
+out = [["443/tcp   ", "white"], ["open   ", "green"], ["web-appsec      ", "cyan"], ["owasp top 10 · authn/authz · api abuse", "gray"]]
+
+[[terminal.lines]]
+out = [["1883/tcp  ", "white"], ["open   ", "green"], ["iot-security    ", "cyan"], ["mqtt · edge devices · raspberry pi fleets", "gray"]]
+
+[[terminal.lines]]
+out = [["8080/tcp  ", "white"], ["open   ", "green"], ["cloud-security  ", "cyan"], ["gcp iam · least privilege · secrets", "gray"]]
+
+[[terminal.lines]]
+out = [["22/tcp    ", "white"], ["open   ", "green"], ["linux           ", "cyan"], ["hardening · privesc · automation", "gray"]]
+
+[[terminal.lines]]
+out = [["9418/tcp  ", "white"], ["open   ", "green"], ["secure-coding   ", "cyan"], ["threat modeling · sast/dast · ci/cd", "gray"]]
+
+[[terminal.lines]]
+cmd = "echo $MOTTO"
+
+[[terminal.lines]]
+out = [['"Build it. Break it. Harden it."', "green"]]
