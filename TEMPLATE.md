@@ -45,4 +45,4 @@ Python 3.11 or newer, no dependencies. GitHub caches profile images by URL, so a
 
 Plain SVG with SMIL animations: no JavaScript and no web fonts, so it keeps animating inside GitHub's image sandbox, which blocks scripts and external files.
 
-If you use it, a ⭐ on this repository is appreciated.
+Made by [@KaweMaximo](https://github.com/KaweMaximo). If you use it, a ⭐ on [KaweMaximo/KaweMaximo](https://github.com/KaweMaximo/KaweMaximo) is appreciated.
