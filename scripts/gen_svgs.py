@@ -1,20 +1,44 @@
 # Generates the animated SVGs of the profile README (assets/banner.svg and
-# assets/terminal.svg).
+# assets/terminal.svg) from profile.toml.
 #
-# Usage: python3 scripts/gen_svgs.py assets
+# Usage: python3 scripts/gen_svgs.py [--config profile.toml] [--out assets]
 #
-# SMIL only (no CSS animations, no web fonts): GitHub serves the SVGs as <img>,
-# where SMIL keeps working and external resources are blocked. After changing an
-# SVG, bump the ?v= query on its <img> in README.md, or GitHub keeps serving the
-# cached copy.
-import os, random, sys
+# Needs Python 3.11+ (tomllib) and nothing else. SMIL only (no CSS animations,
+# no web fonts): GitHub serves the SVGs as <img>, where SMIL keeps working and
+# external resources are blocked. After rebuilding, bump the ?v= query on each
+# <img> in README.md, or GitHub keeps serving the cached copy; the "build
+# profile" workflow does both on every change to profile.toml.
+import argparse
+import os
+import random
+import sys
 from xml.sax.saxutils import escape
 
-OUT = sys.argv[1]
-random.seed(230)
+try:
+    import tomllib
+except ModuleNotFoundError:  # Python < 3.11
+    sys.exit("gen_svgs.py needs Python 3.11 or newer (for tomllib).")
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MONO = "'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',monospace"
 GREEN, CYAN, PURPLE, RED = "#00ff88", "#00e5ff", "#b16cff", "#ff2e63"
+COLORS = {
+    "green": GREEN, "cyan": CYAN, "purple": PURPLE, "red": RED,
+    "yellow": "#f2cc60", "white": "#e6edf3", "gray": "#8b949e", "dim": "#6e7681",
+}
 CW = 0.6  # monospace advance as a fraction of the font size
+
+
+def fail(msg):
+    sys.exit(f"profile.toml: {msg}")
+
+
+def color(name):
+    if isinstance(name, str) and name.startswith("#") and len(name) in (4, 7):
+        return name
+    if name not in COLORS:
+        fail(f"unknown color {name!r}; use one of {', '.join(COLORS)} or #rrggbb")
+    return COLORS[name]
 
 
 def typing_values(n, width_per_char):
@@ -22,8 +46,14 @@ def typing_values(n, width_per_char):
 
 
 # ------------------------------------------------------------------ banner
-def banner():
+def banner(cfg):
     W, H = 1200, 340
+    name = cfg.get("name", "")
+    sub = cfg.get("subtitle", "")
+    if not name:
+        fail("[banner] needs a name")
+    random.seed(cfg.get("seed", 230))
+
     rain = []
     for i in range(26):
         x = 20 + i * 45 + random.randint(-8, 8)
@@ -38,19 +68,41 @@ def banner():
             f'dur="{dur:.2f}s" begin="{begin:.2f}s" repeatCount="indefinite"/></g>'
         )
 
-    sub = "> software engineer  //  solutions architect  //  offensive security"
-    fs = 22
+    # Long names and subtitles shrink to fit the 1200px banner.
+    nfs = min(88, int(1080 / (len(name) * (CW + 10 / 88))))
+    ls = f"{10 * nfs / 88:g}"
+    fs = min(22, int(1100 / (max(len(sub), 1) * CW)))
     sub_w = len(sub) * fs * CW
     sub_x = (W - sub_w) / 2
     type_dur = 2.8
     vals = typing_values(len(sub), fs * CW)
     cursor_x = ";".join(f"{sub_x + float(v):.1f}" for v in vals.split(";"))
+    label = cfg.get("description") or f"{name}: {sub.lstrip('> ').strip()}"
 
     # glitch: discrete jitter on two coloured copies, clipped to a moving band
     jit = "0;0;0;0;0;0;5;-4;0;0;0;0;0;0;0;-6;3;0;0;0"
     band = "0;0;0;0;0;0;120;150;0;0;0;0;0;0;0;95;135;0;0;0"
+    name_attrs = f'x="600" y="160" text-anchor="middle" font-family="{MONO}" font-size="{nfs}" font-weight="800" letter-spacing="{ls}"'
+    name_txt = escape(name)
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Kawe Maximo: software engineer, solutions architect, offensive security">
+    hud = []
+    if cfg.get("top_left", ""):
+        hud.append(f'<circle cx="74" cy="38" r="4" fill="{GREEN}"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>')
+        hud.append(f'<text x="86" y="42">{escape(cfg["top_left"])}</text>')
+    if cfg.get("top_right", ""):
+        hud.append(f'<text x="{W - 74}" y="42" text-anchor="end">{escape(cfg["top_right"])}</text>')
+    if cfg.get("bottom_left", ""):
+        hud.append(f'<text x="74" y="{H - 34}">{escape(cfg["bottom_left"])}</text>')
+    if cfg.get("bottom_right", ""):
+        hud.append(f'<text x="{W - 74}" y="{H - 34}" text-anchor="end">{escape(cfg["bottom_right"])}</text>')
+    hud = "\n  ".join(hud)
+
+    motto = ""
+    if cfg.get("motto", ""):
+        motto = f'''<text x="600" y="276" text-anchor="middle" font-family="{MONO}" font-size="15" letter-spacing="7" fill="{GREEN}" opacity="0">{escape(cfg["motto"])}
+  <animate attributeName="opacity" values="0;1" dur="0.8s" begin="3.8s" fill="freeze"/></text>'''
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{escape(label, {'"': "&quot;"})}">
 <defs>
   <radialGradient id="bg" cx="50%" cy="45%" r="80%">
     <stop offset="0" stop-color="#0b1d16"/><stop offset=".55" stop-color="#070b10"/><stop offset="1" stop-color="#020305"/>
@@ -85,14 +137,14 @@ def banner():
 <g>{"".join(rain)}</g>
 
 <!-- name -->
-<text x="600" y="160" text-anchor="middle" font-family="{MONO}" font-size="88" font-weight="800" letter-spacing="10" fill="{GREEN}" opacity=".45" filter="url(#glow)">KAWE MAXIMO</text>
+<text {name_attrs} fill="{GREEN}" opacity=".45" filter="url(#glow)">{name_txt}</text>
 <g clip-path="url(#band)">
-  <text x="600" y="160" text-anchor="middle" font-family="{MONO}" font-size="88" font-weight="800" letter-spacing="10" fill="{RED}" opacity=".85">KAWE MAXIMO
+  <text {name_attrs} fill="{RED}" opacity=".85">{name_txt}
     <animate attributeName="x" values="{";".join(str(600 + int(v)) for v in jit.split(";"))}" dur="3.2s" calcMode="discrete" repeatCount="indefinite"/></text>
-  <text x="600" y="160" text-anchor="middle" font-family="{MONO}" font-size="88" font-weight="800" letter-spacing="10" fill="{CYAN}" opacity=".85">KAWE MAXIMO
+  <text {name_attrs} fill="{CYAN}" opacity=".85">{name_txt}
     <animate attributeName="x" values="{";".join(str(600 - int(v)) for v in jit.split(";"))}" dur="3.2s" calcMode="discrete" repeatCount="indefinite"/></text>
 </g>
-<text x="600" y="160" text-anchor="middle" font-family="{MONO}" font-size="88" font-weight="800" letter-spacing="10" fill="url(#name)">KAWE MAXIMO</text>
+<text {name_attrs} fill="url(#name)">{name_txt}</text>
 
 <!-- typed subtitle + cursor -->
 <text x="{sub_x:.1f}" y="225" font-family="{MONO}" font-size="{fs}" fill="#9fb3c8" textLength="{sub_w:.1f}" lengthAdjust="spacingAndGlyphs" clip-path="url(#typed)">{escape(sub)}</text>
@@ -102,19 +154,14 @@ def banner():
 </rect>
 
 <!-- motto -->
-<text x="600" y="276" text-anchor="middle" font-family="{MONO}" font-size="15" letter-spacing="7" fill="{GREEN}" opacity="0">BUILD IT · BREAK IT · HARDEN IT
-  <animate attributeName="opacity" values="0;1" dur="0.8s" begin="3.8s" fill="freeze"/></text>
+{motto}
 
 <!-- HUD -->
 <g fill="none" stroke="{GREEN}" stroke-opacity=".55" stroke-width="2">
   <path d="M24 54V24H54"/><path d="M{W - 54} 24H{W - 24}V54"/><path d="M24 {H - 54}V{H - 24}H54"/><path d="M{W - 54} {H - 24}H{W - 24}V{H - 54}"/>
 </g>
 <g font-family="{MONO}" font-size="12" fill="#5f8a74" letter-spacing="1.5">
-  <circle cx="74" cy="38" r="4" fill="{GREEN}"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="86" y="42">SYS::ONLINE</text>
-  <text x="{W - 74}" y="42" text-anchor="end">LAT -23.52 · LON -46.18 · MOGI DAS CRUZES</text>
-  <text x="74" y="{H - 34}">root@kawe:~#</text>
-  <text x="{W - 74}" y="{H - 34}" text-anchor="end">PURPLE TEAM · BUILD ▸ BREAK ▸ HARDEN</text>
+  {hud}
 </g>
 
 <!-- CRT -->
@@ -127,33 +174,52 @@ def banner():
 
 
 # ---------------------------------------------------------------- terminal
-def terminal():
+def schedule(lines):
+    """Start time of each line: a command is typed out, then its output
+    follows line by line, then a pause before the next command."""
+    times, t, prev = [], 0.4, None
+    for line in lines:
+        if "cmd" in line:
+            if prev is not None:
+                t += 0.6
+            times.append(round(t, 2))
+            t += 0.15 + max(0.4, len(line["cmd"]) * 0.06)
+        else:
+            t += 0.25 if prev == "cmd" else 0.2
+            times.append(round(t, 2))
+        prev = "cmd" if "cmd" in line else "out"
+    return times, round(t + 0.4, 2)
+
+
+def terminal(cfg):
     W = 1000
     fs, lh, x0, y0 = 16, 27, 28, 84
     cw = fs * CW
-    prompt = "kawe@kali:~$ "
-    script = [
-        ("cmd", "whoami", 0.4),
-        ("out", [("Kawe Maximo", "#e6edf3"), (" — software engineer · solutions architect · offensive security", "#8b949e")], 1.2),
-        ("cmd", "cat ./focus", 1.8),
-        ("out", [("[web/api pentest]  ", GREEN), ("[cloud & iot hardening]  ", CYAN), ("[distributed systems]  ", PURPLE), ("[secure sdlc]", "#f2cc60")], 2.6),
-        ("cmd", "nmap -sV --top-ports 5 kawe", 3.2),
-        ("out", [("PORT      STATE  SERVICE         DETAILS", "#6e7681")], 4.6),
-        ("port", ("443/tcp ", "web-appsec    ", "owasp top 10 · authn/authz · api abuse"), 4.8),
-        ("port", ("1883/tcp", "iot-security  ", "mqtt · edge devices · raspberry pi fleets"), 5.0),
-        ("port", ("8080/tcp", "cloud-security", "gcp iam · least privilege · secrets"), 5.2),
-        ("port", ("22/tcp  ", "linux         ", "hardening · privesc · automation"), 5.4),
-        ("port", ("9418/tcp", "secure-coding ", "threat modeling · sast/dast · ci/cd"), 5.6),
-        ("cmd", "echo $MOTTO", 6.3),
-        ("out", [('"Build it. Break it. Harden it."', GREEN)], 7.1),
-        ("end", None, 7.5),
-    ]
-    H = y0 + lh * len(script) + 10
+    user, host = cfg.get("user", "user"), cfg.get("host", "host")
+    lines = cfg.get("lines", [])
+    if not lines:
+        fail("[terminal] needs at least one [[terminal.lines]] block")
+    prompt = f"{user}@{host}:~$ "
+    prompt_svg = (
+        f'{escape(user)}@{escape(host)}<tspan fill="#8b949e">:</tspan>'
+        f'<tspan fill="{CYAN}">~</tspan><tspan fill="#8b949e">$ </tspan>'
+    )
+    max_chars = int((W - 2 * x0) / cw)
+    for n, line in enumerate(lines, 1):
+        if ("cmd" in line) == ("out" in line):
+            fail(f"line {n} needs exactly one of cmd or out")
+        width = len(prompt) + len(line["cmd"]) if "cmd" in line else sum(len(p[0]) for p in line["out"])
+        if width > max_chars:
+            print(f"warning: terminal line {n} has {width} characters and the window fits {max_chars}", file=sys.stderr)
+
+    times, end_at = schedule(lines)
+    H = y0 + lh * (len(lines) + 1) + 10
     body, defs = [], []
-    for i, (kind, data, t) in enumerate(script):
+    for i, (line, t) in enumerate(zip(lines, times)):
         y = y0 + i * lh
-        show = f'<set attributeName="opacity" to="1" begin="{t}s" fill="freeze"/>'
-        if kind == "cmd":
+        show = f'<set attributeName="opacity" to="1" begin="{t:g}s" fill="freeze"/>'
+        if "cmd" in line:
+            data = line["cmd"]
             px = x0 + len(prompt) * cw
             dur = max(0.4, len(data) * 0.06)
             defs.append(
@@ -162,29 +228,25 @@ def terminal():
                 f'begin="{t + 0.15:.2f}s" calcMode="discrete" fill="freeze"/></rect></clipPath>'
             )
             body.append(
-                f'<g opacity="0">{show}<text x="{x0}" y="{y}" fill="{GREEN}" xml:space="preserve" textLength="{len(prompt) * cw:.1f}" lengthAdjust="spacingAndGlyphs">kawe@kali<tspan fill="#8b949e">:</tspan>'
-                f'<tspan fill="{CYAN}">~</tspan><tspan fill="#8b949e">$ </tspan></text>'
+                f'<g opacity="0">{show}<text x="{x0}" y="{y}" fill="{GREEN}" xml:space="preserve" textLength="{len(prompt) * cw:.1f}" lengthAdjust="spacingAndGlyphs">{prompt_svg}</text>'
                 f'<text x="{px:.1f}" y="{y}" fill="#e6edf3" textLength="{len(data) * cw:.1f}" lengthAdjust="spacingAndGlyphs" clip-path="url(#c{i})">{escape(data)}</text></g>'
             )
-        elif kind == "out":
-            spans = "".join(f'<tspan fill="{c}">{escape(s)}</tspan>' for s, c in data)
-            body.append(f'<g opacity="0">{show}<text x="{x0}" y="{y}" xml:space="preserve">{spans}</text></g>')
-        elif kind == "port":
-            port, svc, det = data
-            body.append(
-                f'<g opacity="0">{show}<text x="{x0}" y="{y}" xml:space="preserve">'
-                f'<tspan fill="#e6edf3">{escape(port)}  </tspan><tspan fill="{GREEN}">open   </tspan>'
-                f'<tspan fill="{CYAN}">{escape(svc)}  </tspan><tspan fill="#8b949e">{escape(det)}</tspan></text></g>'
-            )
         else:
-            px = x0 + len(prompt) * cw
-            body.append(
-                f'<g opacity="0">{show}<text x="{x0}" y="{y}" fill="{GREEN}" xml:space="preserve" textLength="{len(prompt) * cw:.1f}" lengthAdjust="spacingAndGlyphs">kawe@kali<tspan fill="#8b949e">:</tspan>'
-                f'<tspan fill="{CYAN}">~</tspan><tspan fill="#8b949e">$ </tspan></text>'
-                f'<rect x="{px:.1f}" y="{y - fs + 2}" width="{cw:.1f}" height="{fs + 2}" fill="{GREEN}">'
-                f'<animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></rect></g>'
-            )
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Terminal: whoami, focus areas and an nmap scan of Kawe's skills">
+            spans = "".join(f'<tspan fill="{color(c)}">{escape(s)}</tspan>' for s, c in line["out"])
+            body.append(f'<g opacity="0">{show}<text x="{x0}" y="{y}" xml:space="preserve">{spans}</text></g>')
+
+    # the idle prompt with a blinking cursor, once everything has played
+    y = y0 + len(lines) * lh
+    px = x0 + len(prompt) * cw
+    body.append(
+        f'<g opacity="0"><set attributeName="opacity" to="1" begin="{end_at:g}s" fill="freeze"/>'
+        f'<text x="{x0}" y="{y}" fill="{GREEN}" xml:space="preserve" textLength="{len(prompt) * cw:.1f}" lengthAdjust="spacingAndGlyphs">{prompt_svg}</text>'
+        f'<rect x="{px:.1f}" y="{y - fs + 2}" width="{cw:.1f}" height="{fs + 2}" fill="{GREEN}">'
+        f'<animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></rect></g>'
+    )
+    title = cfg.get("title") or f"{user}@{host}: ~ — zsh"
+    label = cfg.get("description") or "Terminal: " + ", ".join(line["cmd"] for line in lines if "cmd" in line)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{escape(label, {'"': "&quot;"})}">
 <defs>
   <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{GREEN}" stop-opacity=".5"/><stop offset="1" stop-color="{PURPLE}" stop-opacity=".5"/></linearGradient>
   {"".join(defs)}
@@ -193,13 +255,28 @@ def terminal():
 <path d="M1 15A14 14 0 0 1 15 1H{W - 15}A14 14 0 0 1 {W - 1} 15V42H1Z" fill="#161b22"/>
 <line x1="1" y1="42" x2="{W - 1}" y2="42" stroke="#30363d"/>
 <circle cx="26" cy="22" r="6.5" fill="#ff5f56"/><circle cx="48" cy="22" r="6.5" fill="#ffbd2e"/><circle cx="70" cy="22" r="6.5" fill="#27c93f"/>
-<text x="{W / 2}" y="27" text-anchor="middle" font-family="{MONO}" font-size="13" fill="#8b949e">kawe@kali: ~ — zsh</text>
+<text x="{W / 2:g}" y="27" text-anchor="middle" font-family="{MONO}" font-size="13" fill="#8b949e">{escape(title)}</text>
 <g font-family="{MONO}" font-size="{fs}">{"".join(body)}</g>
 </svg>
 '''
 
 
-for name, fn in (("banner.svg", banner), ("terminal.svg", terminal)):
-    with open(os.path.join(OUT, name), "w") as f:
-        f.write(fn())
-print("ok")
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--config", default=os.path.join(ROOT, "profile.toml"))
+    ap.add_argument("--out", default=os.path.join(ROOT, "assets"))
+    args = ap.parse_args()
+    try:
+        with open(args.config, "rb") as f:
+            cfg = tomllib.load(f)
+    except (OSError, tomllib.TOMLDecodeError) as e:
+        sys.exit(f"cannot read {args.config}: {e}")
+    os.makedirs(args.out, exist_ok=True)
+    for name, svg in (("banner.svg", banner(cfg.get("banner", {}))), ("terminal.svg", terminal(cfg.get("terminal", {})))):
+        with open(os.path.join(args.out, name), "w", encoding="utf-8") as f:
+            f.write(svg)
+        print(f"wrote {os.path.join(args.out, name)}")
+
+
+if __name__ == "__main__":
+    main()
