@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Kawe Maximo — software engineer, solutions architect, offensive security" />
+<img src="assets/banner.svg?v=2" width="100%" alt="Kawe Maximo — software engineer, solutions architect, offensive security" />
 
 <br/><br/>
 
-<img src="assets/terminal.svg" width="88%" alt="whoami, focus areas and an nmap scan of my skill set" />
+<img src="assets/terminal.svg?v=2" width="88%" alt="whoami, focus areas and an nmap scan of my skill set" />
 
 </div>
 
